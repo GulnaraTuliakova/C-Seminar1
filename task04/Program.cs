@@ -1,7 +1,7 @@
 ﻿//Вывести на экран дипапзон чисел от -n до n
 
-
-Console.Write("Введите число: ");
+Console.WriteLine("Вывести диапазон чисел от -n до n");
+Console.Write("Введите число n: ");
 int num2 =  int.Parse(Console.ReadLine());
 int num1 = -num2;
 if (num2 > 0)
